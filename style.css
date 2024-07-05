@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 2rem;
+}
+
+#about {
+    background-color: rgb(175, 240, 175);
+}
+
+#projects {
+    background-color: #69b673;
+}
+
+.project {
+    border: 1px solid #ccc;
+    margin-bottom: 1rem;
+    padding: 1rem;
+}
+
+#contact {
+    background: #36d498;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-top: 1rem;
+}
+
+form input, form textarea {
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+    width: 100%;
+}
+
+form button {
+    background: #333;
+    color: #fff;
+    margin-top: 1rem;
+    padding: 0.5rem;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background: #555;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
